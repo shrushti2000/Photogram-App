@@ -77,7 +77,7 @@ export const Profile = () => {
                    
                    <div className="file-field input-field">
            
-           <div className="btn">
+           <div className="btn #8e24aa purple darken-1">
               <span>Upload pic</span>
               <input type="file" onChange={(e)=>{updatePhoto(e.target.files[0])}} />
           </div>

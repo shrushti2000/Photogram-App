@@ -178,9 +178,10 @@ export const Signup  = ()=>{
     }
 
    return (
+       
       <div className="mycard">
-          <div className="card auth-card">
-            <h2>Instagram</h2>
+          <div className="card auth-card #e1bee7 purple lighten-4">
+            <h2>Photogram</h2>
             <input
             type="text"
             placeholder="name"
@@ -201,7 +202,7 @@ export const Signup  = ()=>{
             />
             <div className="file-field input-field">
            
-             <div className="btn">
+             <div className="btn #8e24aa purple darken-1">
                 <span>Upload pic</span>
                 <input type="file" onChange={(e)=>{setImage(e.target.files[0])}} />
             </div>
@@ -209,7 +210,7 @@ export const Signup  = ()=>{
                 <input className="file-path validate" type="text" />
             </div>
             </div>
-            <button className="btn waves-effect waves-light"
+            <button className="btn #8e24aa purple darken-1"
             onClick={()=>PostData()}
             >
                 SignUP
@@ -224,6 +225,7 @@ export const Signup  = ()=>{
     
         </div>
       </div>
+      
    )
 }
 

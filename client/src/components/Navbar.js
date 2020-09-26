@@ -33,8 +33,8 @@ export const Navbar = () => {
     return (
         
             <nav>
-    <div class="nav-wrapper #80deea cyan lighten-3">
-      <Link to={state ? "/":"/signin"} class="brand-logo left">Instagram</Link>
+    <div class="nav-wrapper #8e24aa purple darken-1">
+      <Link to={state ? "/":"/signin"} class="brand-logo left">Photogram</Link>
       <ul id="nav-mobile" class="right">
         {renderList()}
        

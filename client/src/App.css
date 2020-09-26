@@ -1,14 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+/**@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');**/
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Grand+Hotel&family=Parisienne&family=Tangerine:wght@700&display=swap');
+
+
+body{
+  background-image: linear-gradient(to right,#540059,#e263eb ,#eeb1f2);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:black;
+  opacity: 0.5; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
 
 a{
-  color: black !important;
+  color:  black!important;
+  font-family: 'David Libre', serif;
+  
+}
+.donthaveacc{
+  color: #540059;
 }
 i{
   cursor: pointer; ;
 }
 
+.nav-mobile{
+  color: #ce93d8;
+}
+
 .brand-logo,h2{
   font-family: 'Grand Hotel', cursive;
+  font-family: 'Tangerine', cursive;
 }
 
 .mycard{

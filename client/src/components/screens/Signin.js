@@ -42,16 +42,16 @@ export const Signin = () => {
     }
     return (
         <div className="mycard">
-             <div className="card auth-card">
-                <h2>Instagram</h2>
+             <div className="card auth-card #e1bee7 purple lighten-4">
+                <h2>Photogram</h2>
                 <input type="text" placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
                 <input type="password" placeholder="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
                
-                <button className="btn waves-effect waves-light" onClick={()=>PostData()} >Login
+                <button className="btn #8e24aa purple darken-1" onClick={()=>PostData()} >Login
     
                 </button>
                 <h5>
-                    <Link to="/signup">Don't have an Account ?</Link>
+                    <Link className="donthaveacc" to="/signup">Don't have an Account ?</Link>
                 </h5>
                 
         
